@@ -1,0 +1,6 @@
+name: drupal-8
+recipe: drupal8
+config:
+  ssl: true
+  xdebug: true
+  webroot: web

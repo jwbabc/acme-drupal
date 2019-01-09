@@ -1,0 +1,37 @@
+<div class="layout-container">
+
+  {{ page.header }}
+  {{ page.primary_menu }}
+  {{ menu.local_tasks }}
+  {{ page.secondary_menu }}
+
+  {{ page.breadcrumb }}
+
+  {{ page.highlighted }}
+
+  {{ page.help }}
+
+  <main role="main">
+    <div class="col-xs-12">
+       <p>This is the front page, from a different folder!</p>
+    </div>{# /.layout-content #}
+
+    {% if page.sidebar_first %}
+      <aside class="layout-sidebar-first" role="complementary">
+        {{ page.sidebar_first }}
+      </aside>
+    {% endif %}
+
+    {% if page.sidebar_second %}
+      <aside class="layout-sidebar-second" role="complementary">
+        {{ page.sidebar_second }}
+      </aside>
+    {% endif %}
+
+  </main>
+
+  <footer role="contentinfo">
+    {% include '@sportsengine/partials/_footer.html.twig' %}
+  </footer>
+
+</div>{# /.layout-container #}

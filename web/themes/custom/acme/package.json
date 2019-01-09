@@ -1,0 +1,30 @@
+{
+  "name": "se-corporate",
+  "version": "1.0.0",
+  "description": "drupal-app-se-corporate",
+  "homepage": "https://sportsengine.com",
+  "main": "index.js",
+  "author": "SportsEngine",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "breakpoint-sass": "^2.7.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+fonts:
+  css:
+    theme:
+      '//cloud.typography.com/737218/6534192/css/fonts.css': { type: external, minified: true }
+
+styles:
+  css:
+    theme:
+      css/main.css: {}
+  js:
+    js/dist/app.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

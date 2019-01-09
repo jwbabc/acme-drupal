@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="r1/active-carousel-control">
+            <g id="Group">
+                <circle id="Oval" fill="#F2F3F4" cx="27" cy="27" r="27"></circle>
+                <g id="r1/active-forward-chevron" transform="translate(20.000000, 16.000000)" fill="#68767F">
+                    <path d="M9.65865385,11 L1.22836538,2.84375 C0.959133269,2.59374875 0.959133269,2.34375125 1.22836538,2.09375 L2.74278846,0.6875 C3.04567459,0.43749875 3.31490267,0.421873906 3.55048077,0.640625 L13.8485577,10.625 C13.9495197,10.7187505 14,10.8437492 14,11 C14,11.1562508 13.9495197,11.2812495 13.8485577,11.375 L3.55048077,21.359375 C3.28124865,21.6093762 3.01202058,21.6093762 2.74278846,21.359375 L1.22836538,19.90625 C0.959133269,19.6562488 0.959133269,19.4062512 1.22836538,19.15625 L9.65865385,11 Z" id=""></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

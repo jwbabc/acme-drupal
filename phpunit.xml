@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TODO set checkForUnintentionallyCoveredCode="true" once https://www.drupal.org/node/2626832 is resolved. -->
+<phpunit bootstrap="web/core/tests/bootstrap.php" colors="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutChangesToGlobalState="true">
+    <php>
+        <!-- Set error reporting to E_ALL. -->
+        <ini name="error_reporting" value="32767"/>
+        <!-- Do not limit the amount of memory tests take to run. -->
+        <ini name="memory_limit" value="-1"/>
+        <env name="SIMPLETEST_BASE_URL" value="http://localhost"/>
+        <env name="SIMPLETEST_DB" value="mysql://panthon@pantheon//localhost:32782/pantheon"/>
+        <env name="BROWSERTEST_OUTPUT_DIRECTORY" value="web/sites/simpletest"/>
+    </php>
+    <testsuites>
+        <testsuite name="unit">
+            <file>web/core/tests/TestSuites/UnitTestSuite.php</file>
+        </testsuite>
+        <testsuite name="kernel">
+            <file>web/core/tests/TestSuites/KernelTestSuite.php</file>
+        </testsuite>
+        <testsuite name="functional">
+            <file>web/core/tests/TestSuites/FunctionalTestSuite.php</file>
+        </testsuite>
+        <testsuite name="functional-javascript">
+            <file>web/core/tests/TestSuites/FunctionalJavascriptTestSuite.php</file>
+        </testsuite>
+    </testsuites>
+    <listeners>
+        <listener class="\Drupal\Tests\Listeners\DrupalListener">
+        </listener>
+        <!-- The Symfony deprecation listener has to come after the Drupal listener -->
+        <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener">
+        </listener>
+    </listeners>
+    <!-- Filter for coverage reports. -->
+    <filter>
+        <whitelist>
+            <directory>web/core/includes</directory>
+            <directory>web/core/lib</directory>
+            <directory>web/core/modules</directory>
+            <directory>web/modules</directory>
+            <directory>web/sites</directory>
+            <!-- By definition test classes have no tests. -->
+            <exclude>
+                <directory suffix="Test.php">./</directory>
+                <directory suffix="TestBase.php">./</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

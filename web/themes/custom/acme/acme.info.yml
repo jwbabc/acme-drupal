@@ -1,0 +1,12 @@
+name: ACME
+type: theme
+description: Boilerplate Theme for Drupal Applications.
+core: 8.x
+
+# Defines libraries group in which we can add css/js.
+libraries:
+  - acme/fonts
+  - acme/styles
+
+ckeditor_stylesheets:
+  - //cloud.typography.com/737218/6534192/css/fonts.css

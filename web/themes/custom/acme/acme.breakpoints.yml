@@ -1,0 +1,45 @@
+acme.default:
+  label: default
+  mediaQuery: 'only screen and (min-width: 0rem)'
+  weight: 0
+  multipliers:
+  - 1x # Supports default image styles for responsive image markup
+
+acme.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+  - 1x
+  - 1.5x # Supports Android
+  - 2x   # Supports Mac retina display
+
+acme.small:
+  label: small
+  mediaQuery: 'only screen and (min-width: 37.44rem)'
+  weight: 0
+  multipliers:
+  - 1x
+  - 1.5x # Supports Android
+  - 2x   # Supports Mac retina display
+
+acme.medium:
+  label: medium
+  mediaQuery: 'only screen and (min-width: 37.5rem)'
+  weight: 0
+  multipliers:
+  - 1x
+
+acme.large:
+  label: large
+  mediaQuery: 'only screen and (min-width: 45rem)'
+  weight: 0
+  multipliers:
+  - 1x
+
+acme.xlarge:
+  label: xlarge
+  mediaQuery: 'only screen and (min-width: 52.5rem)'
+  weight: 0
+  multipliers:
+  - 1x
