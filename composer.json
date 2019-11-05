@@ -22,7 +22,7 @@
     "drupal/admin_toolbar": "^1.24",
     "drupal/adminimal_admin_toolbar": "^1.8",
     "drupal/console": "^1.0.2",
-    "drupal/core": "^8.6.0",
+    "drupal/core": "^8.7",
     "drupal/ctools": "^3.0",
     "drupal/devel": "^1.2",
     "drupal/drupal-extension": "^3.4",
