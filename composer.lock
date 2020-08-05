@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23ece8421914435d77e31bd000184bb1",
+    "content-hash": "c9f7ed3097c62198f2f403f5de6e319e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2675,13 +2675,10 @@
                 "shasum": "fed1fbbdf8f805b1da63d73e7e2c54750f354d61"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.27",
                     "datestamp": "1558553350",
@@ -3387,9 +3384,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.2",
                     "datestamp": "1507197844",
@@ -3429,14 +3423,6 @@
                 {
                     "name": "See contributors",
                     "homepage": "https://www.drupal.org/node/3236/committers"
-                },
-                {
-                    "name": "salvis",
-                    "homepage": "https://www.drupal.org/user/82964"
-                },
-                {
-                    "name": "willzyx",
-                    "homepage": "https://www.drupal.org/user/1043862"
                 }
             ],
             "description": "Various blocks, pages, and functions for developers.",
@@ -11074,16 +11060,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.3",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9"
+                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9",
-                "reference": "24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/a43a2f6c465a2d99635fea0addbebddc3864ad97",
+                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97",
                 "shasum": ""
             },
             "require": {
@@ -11093,7 +11079,6 @@
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
             },
             "suggest": {
-                "ext-zip": "Zip support is required when using bin/simple-phpunit",
                 "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
             },
             "bin": [
@@ -11136,7 +11121,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2018-01-04T17:19:23+00:00"
+            "time": "2019-04-16T09:03:16+00:00"
         },
         {
             "name": "theseer/tokenizer",
