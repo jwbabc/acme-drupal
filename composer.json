@@ -43,7 +43,7 @@
     "wikimedia/composer-merge-plugin": "^1.4"
   },
   "require-dev": {
-    "symfony/phpunit-bridge": "3.4.3",
+    "symfony/phpunit-bridge": "3.4.26",
     "webflo/drupal-core-require-dev": "^8.6.0"
   },
   "conflict": {
